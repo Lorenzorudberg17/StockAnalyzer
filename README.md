@@ -55,4 +55,33 @@ Compare up to **3 tickers** at once:
 - Built-in visual table layout for easy interpretation
 
 ## Project Structure
+StockAnalyzer/
+│
+├── stock_analysis.py       # Main Python logic (xlwings automation + metrics)
+├── Stockanalyzer.xlsm      # Excel dashboard (buttons + layout)
+├── README.md               # Project documentation
+
+
+---
+
+## Tech Stack
+- **Python**
+- **Excel (VBA buttons + dashboard layout)**
+- **xlwings** (Python ↔ Excel automation)
+- **yfinance** (Yahoo Finance data)
+- **pandas** (data cleaning & calculation)
+- **matplotlib** (chart generation)
+- **requests + BeautifulSoup** (Google News RSS fallback)
+
+---
+
+## How To Run
+** Works best on windows **
+
+### 1) Install Dependencies
+```bash
+pip install xlwings yfinance pandas matplotlib requests beautifulsoup4
+
+
+
 
